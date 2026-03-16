@@ -50,7 +50,7 @@ Customer: customer@cepora.com.ph / customer123
 ### Steps
 1. **Clone/Download** repo to `htdocs/cepora-system`
 2. **Create Database** `cepora_db`
-3. **Import Schema** (run SQL below)
+3. **Import Schema**: Run `mysql -u root -p cepora_db < db-schema.sql`
 4. **Update** `config/database.php` credentials
 5. **Start XAMPP** → Visit `http://localhost/cepora-system/`
 
