@@ -1,0 +1,64 @@
+/* assets/css/style.css - Cepora Metal Fabrication Styles */
+
+:root {
+    --primary: #0d6efd;
+    --secondary: #6c757d;
+    --metal: #b8bcc6;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: none;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1) !important;
+}
+
+.display-4 {
+    font-weight: 700;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.2);
+}
+
+.btn {
+    border-radius: 25px;
+    font-weight: 500;
+    padding: 12px 30px;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+footer {
+    background: #1a1a1a;
+    color: white;
+    padding: 40px 0;
+    margin-top: 100px;
+}
+
+/* Admin dashboard styles */
+.admin-card {
+    background: linear-gradient(145deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Metal fabrication theme */
+.metal-accent {
+    background: linear-gradient(45deg, #b8bcc6, #95a5a6);
+    color: #2c3e50;
+}
+
